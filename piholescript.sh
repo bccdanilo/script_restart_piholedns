@@ -1,5 +1,5 @@
 #!/bin/bash
-saida_pihole_status='pihole status'
+saida_pihole_status=`pihole status | head 1`
 trigger = "listening"
 echo "saida do pihole :"
 echo ${saida_pihole_status}  #19 - 26 mais ou menos

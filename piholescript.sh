@@ -8,7 +8,7 @@ echo "palavra chave"
 echo ${trigger}
 
 
-#if [[ $trigger ==  ${saida_pihole_status:19:26} ]]
+#if [[ $trigger ==  ${saida_pihole_status:19} ]]
 #then 
 #    pihole restartdns
 #fi
